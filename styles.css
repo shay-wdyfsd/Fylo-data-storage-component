@@ -1,0 +1,255 @@
+body {
+    background: hsl(229, 57%, 11%);
+    background-image: url("images/bg-desktop.png");
+    background-position: bottom;
+    background-size: 100% 350px;
+    margin-top: 160.7px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.container1 {
+    position: relative;
+    border-top-right-radius: 95px !important;
+    border-radius: 10px;
+    left: 240px;
+    width: 350px;
+    height: 200px;
+    background: hsl(228, 56%, 26%);
+}
+
+.logo-icon {
+    padding: 45px;
+}
+
+.doc-img,
+.fol-img,
+.up-icon {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    background: hsl(229, 57%, 11%);
+}
+
+.doc-img {
+    left: 292px;
+    top: 125px;
+}
+
+.doc-img>img {
+    padding: 10px;
+    padding-left: 12.5px;
+}
+
+.fol-img {
+    left: 352px;
+    top: 125px;
+}
+
+.fol-img>img {
+    padding: 13px;
+    padding-left: 11px;
+}
+
+.up-icon {
+    left: 412px;
+    top: 125px;
+}
+
+.up-icon>img {
+    padding: 13.5px;
+    padding-left: 10.2px;
+}
+
+.container2 {
+    position: relative;
+    width: 535px;
+    height: 150px;
+    border-radius: 10px;
+    top: -164px;
+    left: 624px;
+    background: hsl(228, 56%, 26%);
+}
+
+.p {
+    color: rgba(255, 255, 255, 0.699);
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-left: -208px;
+    padding-top: 35px;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.p>span,
+.d-text,
+.r-text {
+    color: #fff;
+    font-weight: 400;
+}
+
+.d-text,
+.r-text {
+    position: relative;
+    top: 25px;
+    left: 38px;
+    color: rgb(233, 232, 232);
+}
+
+.r-text {
+    left: 395px;
+}
+
+.status-bar {
+    position: relative;
+    width: 462px;
+    height: 22px;
+    border-radius: 10px;
+    background: #101638;
+    left: 33px;
+    top: -22px;
+}
+
+.status-bar2 {
+    position: relative;
+    width: 340px;
+    height: 16px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #fe8f96, #ff3e7f);
+    top: 3px;
+    left: 3px;
+
+}
+
+.roller {
+    position: relative;
+    width: 12px;
+    height: 12px;
+    border-radius: 10px;
+    background: #d2d2d2;
+    top: 2px;
+    left: 325px;
+}
+
+.container3 {
+    position: relative;
+    width: 180px;
+    height: 80px;
+    background: #fff;
+    top: -405px;
+    left: 945px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #141a34;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    margin-left: 15px;
+    position: relative;
+    top: 14px;
+}
+
+h1>span {
+    font-family: 'Raleway', sans-serif;
+    color: #9fa0a5;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    position: relative;
+    top: -7px;
+}
+
+.triangle {
+    position: relative;
+    width: 0;
+    height: 0;
+    left: 143px;
+    top: -6px;
+    border-style: solid;
+    border-width: 30px 1px 30px 36px;
+    border-color: #ffffff transparent transparent transparent;
+
+}
+
+@media (max-width:400px) {
+    body {
+        background-image: url("images/bg-desktop.png");
+        background-size: 72em 51em;
+        background-position: -200px -164;
+    }
+
+    .container1 {
+        top: -30px;
+        left: 20px;
+        width: 310px;
+        height: 200px;
+    }
+
+    .doc-img {
+        left: 60px;
+        top: 90px;
+    }
+
+    .fol-img {
+        left: 120px;
+        top: 90px;
+    }
+
+    .up-icon {
+        left: 180px;
+        top: 90px;
+    }
+
+    .container2 {
+        width: 310px;
+        height: 150px;
+        top: -25px;
+        left: 20px;
+    }
+
+    .p {
+        padding-top: 30px;
+        margin-left: -5px;
+    }
+
+    .d-text {
+        left: 27px;
+        top: 32px;
+    }
+
+    .r-text {
+        left: 188px;
+        top: 32px;
+    }
+
+    .status-bar {
+        width: 280px;
+        height: 22px;
+        left: 14px;
+        top: -15px;
+    }
+
+    .status-bar2 {
+        width: 221px;
+        left: 3px;
+        top: 3px;
+    }
+
+    .roller {
+        left: 206px;
+    }
+
+    .container3 {
+        width: 175px;
+        height: 70px;
+        top: -85px;
+        left: 83px;
+    }
+
+    .triangle {
+        opacity: 0;
+    }
+}
